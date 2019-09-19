@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="support" version="4">
+  <OBJECT>
+    <ID name="support" mc="Standard.Package" uid="facae86a-73ef-403e-a28f-7f0909f5818d"/>
+    <PID name="android" mc="Standard.Package" uid="a0f86d27-ac87-4c3b-b4cb-9d375db48016"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[support]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="v7" mc="Standard.Package" uid="9ce4566c-3680-4890-b15e-3dd8eee4d6a4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

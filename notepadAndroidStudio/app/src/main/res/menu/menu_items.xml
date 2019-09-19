@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/filter_by_category"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/filter_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="@string/order_by_title"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/order_title"
+                android:title="@string/order_title" />
+            <item
+                android:id="@+id/order_category"
+                android:title="@string/order_category" />
+        </menu>
+    </item>
+</menu>

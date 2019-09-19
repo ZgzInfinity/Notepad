@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="notepad" version="4">
+  <OBJECT>
+    <ID name="notepad" mc="Standard.Package" uid="1bd45407-9614-4ab3-b1d7-5fbd83e68af2"/>
+    <PID name="eina" mc="Standard.Package" uid="ae040a2b-d37a-46ed-bacc-ad206fe753b5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[notepad]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NoteEdit" mc="Standard.Class" uid="c7d15d16-dd37-477c-a69e-ba52f704a6d7"/>
+        <COMPID name="Notepad" mc="Standard.Class" uid="807ef622-ff4b-405d-8349-95d2e3dc3179"/>
+        <COMPID name="CategoryList" mc="Standard.Class" uid="38289ef3-622f-4ad2-a8fb-ec2319ab5d55"/>
+        <COMPID name="CategoryEdit" mc="Standard.Class" uid="2141b35f-23b5-4769-a138-4fb5f9759e9d"/>
+        <COMPID name="NotesDbAdapter" mc="Standard.Class" uid="e22b257b-b514-4b16-a662-38001725d741"/>
+        <COMPID name="DatabaseHelper" mc="Standard.Class" uid="6295fd51-96e3-42a9-8e31-f54630feae93"/>
+        <OBJECT>
+          <ID name="NotesOrderBy" mc="Standard.Enumeration" uid="cfa7f50a-6eb5-4299-a1bc-9f227a8f31a7"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[NotesOrderBy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="24cfc887-cf13-4030-b5e6-02c4792a815a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="send" mc="Standard.Package" uid="3145768f-9b2a-41ce-8e3f-606d2a71f591"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="notepad" version="4">
+  <OBJECT>
+    <ID name="notepad" mc="Standard.Package" uid="d2528908-3839-4802-923e-1ae6eac2b63a"/>
+    <PID name="Notepadv1" mc="Standard.Project" uid="b3994387-ee32-4f29-a7db-002d1a805336"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[notepad]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Crear nota - Análisis" mc="Standard.Interaction" uid="d4079730-6ae7-4f2d-a03e-a9c4fd4df23f"/>
+        <COMPID name="Modificar nota - Análisis" mc="Standard.Interaction" uid="dc8be668-1078-47a7-b0f5-a359bb96c87e"/>
+        <COMPID name="Eliminar nota - Análisis" mc="Standard.Interaction" uid="51940a54-6e30-44ef-b626-950e9ffb14e5"/>
+        <COMPID name="Crear categoría - Análisis" mc="Standard.Interaction" uid="de1a909e-25a4-418c-af76-50223a62760e"/>
+        <COMPID name="Modificar categoría - Análisis" mc="Standard.Interaction" uid="6841907a-765f-4b35-a60b-a02f68474775"/>
+        <COMPID name="Eliminar categoría - Análisis" mc="Standard.Interaction" uid="aa7c5ced-82b3-46a7-b7de-07f256d4a9e0"/>
+        <COMPID name="Consultar notas - Análisis" mc="Standard.Interaction" uid="b7bbaaa8-02d1-4a53-abff-9e0b56fbf20f"/>
+        <COMPID name="Inicializacion de aplicacion - Diseño" mc="Standard.Interaction" uid="75b87762-30d6-437a-9dea-0b64178ac0e0"/>
+        <COMPID name="Crear nota - Diseño" mc="Standard.Interaction" uid="9c3fa03d-daa0-4d1b-8500-e1832c6428c6"/>
+        <COMPID name="Modificar nota - Diseño" mc="Standard.Interaction" uid="58fb618b-383a-4ae7-94e0-536a1dc08f81"/>
+        <COMPID name="Eliminar nota - Diseño" mc="Standard.Interaction" uid="61568639-f6fd-4f5f-8d87-72e7fe342870"/>
+        <COMPID name="Consultar categorías - Diseño" mc="Standard.Interaction" uid="2be0e65f-3b3e-402a-bb20-65b4d7b31440"/>
+        <COMPID name="Crear categoría - Diseño" mc="Standard.Interaction" uid="893ceccf-07a1-42a7-861c-60aed97d593e"/>
+        <COMPID name="Modificar categoría - Diseño" mc="Standard.Interaction" uid="1d2563ed-9780-4644-8ce0-19e2ad0fe55f"/>
+        <COMPID name="Eliminar categoría - Diseño" mc="Standard.Interaction" uid="8b68648f-e23f-4fbb-b4ed-3b9ec16a16e6"/>
+        <COMPID name="Ordenar por título o categoría - Diseño" mc="Standard.Interaction" uid="f1558c13-1cac-45af-9b47-45279f07ecd7"/>
+        <COMPID name="Filtrar por categoría - Diseño" mc="Standard.Interaction" uid="0f214b9b-6d33-4058-a193-c86e7161a8af"/>
+        <COMPID name="Enviar SMS - Análisis" mc="Standard.Interaction" uid="853e1cea-1c2c-4d04-a0fe-49841fed1ba4"/>
+        <COMPID name="Enviar Email - Análisis" mc="Standard.Interaction" uid="0cda4746-621f-49c8-85d6-0631184c048d"/>
+        <COMPID name="Enviar nota - Diseño" mc="Standard.Interaction" uid="a3940b40-0114-4acc-9d61-8297d5fffb2a"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Nota" mc="Standard.Class" uid="a4fd4026-90dc-401c-a914-c71dd5b4dd09"/>
+        <COMPID name="Categoría" mc="Standard.Class" uid="c6ee5ba8-75a3-4ee4-a0e5-77e67819ad31"/>
+        <COMPID name="Usuario" mc="Standard.Actor" uid="dcdf2a70-6c10-432f-bcea-38aa5b764a3d"/>
+        <COMPID name="Crear nota" mc="Standard.UseCase" uid="7255fee4-a24c-41f6-9b30-c4a9e5c01e1d"/>
+        <COMPID name="Modificar nota" mc="Standard.UseCase" uid="496dd2d8-7448-4fe6-9384-641cbba39d74"/>
+        <COMPID name="Eliminar nota" mc="Standard.UseCase" uid="95a6ffb7-3ea4-4fc8-86a2-26ef4e1b1393"/>
+        <COMPID name="Modificar categoría" mc="Standard.UseCase" uid="67f3fa9f-6498-477c-b56c-2705128e3520"/>
+        <COMPID name="Eliminar categoría" mc="Standard.UseCase" uid="acd0b436-666a-4c0d-a9b1-7f4fe5716fbc"/>
+        <COMPID name="Modificar categoría de nota" mc="Standard.UseCase" uid="5dc4f437-ddd0-4dfd-b3fd-078e31696f9d"/>
+        <COMPID name="Eliminar categoría de nota" mc="Standard.UseCase" uid="f9674a90-dfa4-4849-8c26-e8707c88773e"/>
+        <COMPID name="Consultar notas" mc="Standard.UseCase" uid="6292cb22-8581-40d2-a4fa-4d0b4a4e9013"/>
+        <COMPID name="Filtrar por categoría" mc="Standard.UseCase" uid="7b33380d-adeb-4adf-b0f6-99f1fb045878"/>
+        <COMPID name="Ordenar listado" mc="Standard.UseCase" uid="f6926d0a-ff50-4dd1-a46b-d415a413b111"/>
+        <COMPID name="Ordenar listado por categoría" mc="Standard.UseCase" uid="8e2af9c2-88ec-47b3-aa98-832378d35267"/>
+        <COMPID name="Ordenar listado por título" mc="Standard.UseCase" uid="10663219-1890-4115-bc13-7dacefcea6e1"/>
+        <COMPID name="Crear categoría" mc="Standard.UseCase" uid="fcfbab19-89e4-4422-82d1-de69d8f69421"/>
+        <COMPID name="Consultar categorías" mc="Standard.UseCase" uid="9dfd0284-044f-4292-b5ef-f409379e24ad"/>
+        <COMPID name="ListadoDeNotas" mc="Standard.Class" uid="24308c5d-47a9-4ff9-97e5-791ceacd8b91"/>
+        <COMPID name="ListadoDeCategorías" mc="Standard.Class" uid="39683990-6dfb-4991-80f3-60106435bfff"/>
+        <COMPID name="es" mc="Standard.Package" uid="a7eac19f-98aa-4a2d-8f45-7bb1d6bd7b46"/>
+        <COMPID name="android" mc="Standard.Package" uid="a0f86d27-ac87-4c3b-b4cb-9d375db48016"/>
+        <COMPID name="application" mc="Standard.Component" uid="1ee36400-9450-48c6-aac9-f4426ddd4f4e"/>
+        <COMPID name="database" mc="Standard.Component" uid="24c1784e-933c-4c31-ae66-8ff3c30d05ca"/>
+        <COMPID name="DispositivoAndroid" mc="Standard.Node" uid="3f1bf460-1d95-426f-9521-7e10feabc133"/>
+        <COMPID name="app-debug.apk" mc="Standard.Artifact" uid="1c59f514-adbe-4f7e-89db-ba8a094a30a5"/>
+        <COMPID name="SQLite" mc="Standard.Artifact" uid="91e8f7b1-639d-4821-877f-b07b95d98aef"/>
+        <COMPID name="Enviar nota" mc="Standard.UseCase" uid="996c7b22-75ff-4f35-b095-8918c3d16754"/>
+        <COMPID name="Enviar nota por SMS" mc="Standard.UseCase" uid="53c1bc8f-57d6-4574-ad50-f15b6d5928d7"/>
+        <COMPID name="Enviar nota por email" mc="Standard.UseCase" uid="67091f8b-1a37-4ec8-8985-4f68d3d2d04f"/>
+        <COMPID name="Servidor Email" mc="Standard.Node" uid="953d4c93-a920-443c-8c6e-942932f88fa7"/>
+        <COMPID name="Proveedor telefónico" mc="Standard.Node" uid="533efb08-70e9-4ede-b7a9-24ca94a73366"/>
+        <COMPID name="servidor_email" mc="Standard.Artifact" uid="92e4f2b6-542f-4e4f-a8ef-e98def8610bb"/>
+        <COMPID name="servidor_sms" mc="Standard.Artifact" uid="5d3eeb5e-d18f-468c-a94b-31d708dd582d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de clases - Diseño" mc="Standard.ClassDiagram" uid="ff49c5e7-a98d-46e8-957b-fdac0b5dbf49"/>
+        <COMPID name="Diagrama de clases - Análisis" mc="Standard.ClassDiagram" uid="4d4cb357-3277-41df-aed0-0c1ee5ffa025"/>
+        <COMPID name="Diagrama de casos de uso" mc="Standard.UseCaseDiagram" uid="ef7cf10b-0489-4fb5-bac2-e39d50a71464"/>
+        <COMPID name="Diagrama de paquetes" mc="Standard.ClassDiagram" uid="90dddce4-5920-436a-8305-d9db68f55caa"/>
+        <COMPID name="Diagrama de componentes" mc="Standard.ClassDiagram" uid="30a2222d-805a-4b2d-8739-0b59cbae7dd0"/>
+        <COMPID name="Diagrama de despliegue" mc="Standard.DeploymentDiagram" uid="9f63ed08-062d-4835-8465-2e25686314df"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

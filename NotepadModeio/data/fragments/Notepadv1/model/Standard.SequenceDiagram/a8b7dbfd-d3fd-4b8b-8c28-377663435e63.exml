@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Crear nota - Análisis" version="4">
+  <OBJECT>
+    <ID name="Crear nota - Análisis" mc="Standard.SequenceDiagram" uid="a8b7dbfd-d3fd-4b8b-8c28-377663435e63"/>
+    <PID name="Crear nota - Análisis" mc="Standard.Interaction" uid="d4079730-6ae7-4f2d-a03e-a9c4fd4df23f"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">50</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[Crear nota - Análisis]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <REFOBJ>
+          <ID name="r" mc="Standard.Lifeline" uid="6d09f71c-79ae-44cd-a601-2493b98ba15f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="r1" mc="Standard.Lifeline" uid="6281269f-46d6-4aa5-8419-623c84c892fd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="create" mc="Standard.Message" uid="8ff85a24-41cb-4411-b705-b16d5d07d846"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="777d76c1-3fa6-4c73-b3d1-e56b7b2ced82"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="c4f94050-e02c-48eb-9af8-7b4a5904daf0"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="65eae369-357a-4f1a-92c9-c3bedf591d27"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
